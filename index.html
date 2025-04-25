@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div id="brand">
+            <span>Brand</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>Introduction to CSS</h1>
+        <p>Learn how to style your web pages with CSS.</p>
+        <a href="" class="btn">Learn More</a>
+    </header>
+
+    <section class="content">
+        <h2>What is CSS?</h2>
+        <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written
+            in HTML or XML.</p>
+        <p>CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+        <h2>Why Use CSS?</h2>
+        <p>CSS allows you to separate content from design, making it easier to maintain and update your web pages.</p>
+        <p>With CSS, you can control the layout, colors, fonts, and overall look of your website.</p>
+        <h2>Getting Started with CSS</h2>
+        <p>To start using CSS, you can either include it directly in your HTML file using the <code>&lt;style&gt;</code>
+            tag or link to an external CSS file using the <code>&lt;link&gt;</code> tag.</p>
+        <p>Here is an example of how to link to an external CSS file:</p>
+        <pre>
+            <code>&lt;link rel="stylesheet" href="style.css"&gt;</code>
+        </pre>
+        <p>Once you have linked your CSS file, you can start adding styles to your HTML elements.</p>
+        <p>
+            For example, to change the color of all <code>&lt;h1&gt;</code> elements to blue, you can use the following
+            CSS rule:
+        </p>
+        <pre>
+            <code>
+                h1 {
+                    color: blue;
+                }
+            </code>
+        </pre>
+        <p>This will apply the blue color to all <code>&lt;h1&gt;</code> elements on your page.</p>
+        <p>
+            CSS also allows you to use classes and IDs to target specific elements. For example, you can add a class to
+            an element like this:
+        </p>
+        <pre>
+            <code>&lt;h1 class="main-title"&gt;Hello World&lt;/h1&gt;</code>
+        </pre>
+        <p>And then style it in your CSS file like this:</p>
+        <pre>
+            <code>
+                .main-title {
+                    color: red;
+                    font-size: 2em;
+                    text-align: center;
+                }
+            </code>
+        </pre>
+        <p>
+            This will change the color of the <code>&lt;h1&gt;</code> element with the class <code>main-title</code> to
+            red, set its font size to 2em, and center it on the page.
+        </p>
+        <h2>Styling an Image</h2>
+        <p>To style an image, you can use the <code>img</code> selector in your CSS file. For example:</p>
+        <pre>
+            <code>
+                img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 10px;
+                }
+            </code>
+        </pre>
+        <p>This will make all images on your page responsive, meaning they will scale with the size of the screen,
+            and
+            give them rounded corners.
+        </p>
+        <img src="gloire-bingana-x3o9Fj1B2AU-unsplash (1).jpg" alt="">
+        <p>
+            CSS also supports media queries, which allow you to apply different styles based on the screen size or
+            device
+            type. This is essential for creating responsive designs that look good on all devices.
+        </p>
+        <p>
+            For example, you can use a media query to change the background color of your page on smaller screens:
+        </p>
+        <pre>
+            <code>
+                @media (max-width: 600px) {
+                    body {
+                        background-color: lightblue;
+                    }
+                }
+            </code>
+        </pre>
+        <p>This will change the background color to light blue when the screen width is 600 pixels or less.</p>
+        <p>
+            In conclusion, CSS is a powerful tool for styling your web pages and creating beautiful designs. With just a
+            few lines of code, you can transform the look and feel of your website.
+        </p>
+        <p>Start experimenting with CSS today and see how it can enhance your web development skills!</p>
+    </section>
+    <footer id="footer">
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <p>Follow us on <a href="#">Twitter</a>, <a href="#">Facebook</a>, and <a href="#">Instagram</a>.</p>
+    </footer>
+</body>
+
+</html>

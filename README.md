@@ -1,6 +1,7 @@
 # Introduction to CSS
 
 ## Objectives
+
 Link an external CSS file to an HTML document.
 Apply basic styling using selectors.
 Use colors, fonts, and spacing effectively.
@@ -22,6 +23,7 @@ Margins, paddings, and borders.
 >  - Different font
 
 # Tasks
+
  - Link an external CSS file.
  - Apply at least 3 different selectors.
  - Improve readability and aesthetics.
